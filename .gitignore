@@ -4,7 +4,7 @@
 *.log
 *.lock
 .publish
-.vscode
+.vscode/
 node_modules/
 dist/
 npm-debug.*
