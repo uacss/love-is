@@ -1,8 +1,17 @@
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'OpenSans';
 
-  src: url('../fonts/Roboto-Light.woff') format('woff'),
-    url('../fonts/Roboto-Light.woff2') format('woff2');
-  font-weight: 300;
+  src: url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+    url('../fonts/OpenSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+
+  src: url('../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans-Regular.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
 }
