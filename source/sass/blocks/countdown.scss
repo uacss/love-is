@@ -1,0 +1,55 @@
+.countdown {
+  margin: 0 15px;
+  text-align: center;
+  background-color: rgba($color: $color-white, $alpha: 0.27);
+  border: 1px solid $color-white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.countdown__title {
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 35px;
+  color: $color-pink;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.countdown__list {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 13px;
+
+  padding: 0;
+  list-style: none;
+}
+
+.countdown__item-title {
+  margin: 0;
+  margin-bottom: 20px;
+  color: $color-darkblue;
+}
+
+.countdown__item-desc {
+  margin: 0;
+  color: $color-darkblue;
+  font-size: 39px;
+  font-weight: 600;
+}
+
+.countdown__item-desc span {
+  padding: 8px 9px;
+  background-color: $bg-white;
+  border-radius: 10px;
+}
+
+.countdown__item-desc span:first-child {
+  margin-right: 2px;
+}
+
+.countdown__button {
+  margin-top: 33px;
+  margin-bottom: 50px;
+}

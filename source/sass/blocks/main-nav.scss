@@ -1,0 +1,25 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+  padding: 8px 16px;
+  background-color: $bg-white;
+  border-radius: 30px;
+}
+
+.main-nav__button-sandwich {
+  width: 25px;
+  height: 19px;
+  background-color: $color-white;
+  background-image: url('../img/menu.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.main-nav__list,
+.main-nav__signup {
+  display: none;
+}
