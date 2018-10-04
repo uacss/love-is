@@ -28,7 +28,7 @@
             <li class="main-nav__item">Отзывы</li>
           </ul>
           <div class="main-nav__signup">
-            <button class="button main-nav__button">Регистрация</button>
+            <button class="button main-nav__button" type="button">Регистрация</button>
           </div>
         </nav>
       </header>
@@ -64,7 +64,7 @@
             <div class="countdown__item-desc"><span>0</span><span>0</span></div>
           </li>
         </ul>
-        <button class="button countdown__button">Зарегистрироваться</button>
+        <button class="button countdown__button" type="button">Зарегистрироваться</button>
       </section>
 
     </div>
@@ -75,45 +75,43 @@
         <li class="statistics__item">
           <h3 class="statistics__item-title">100%</h3>
           <div class="statistics__wrap">
-            <h4 class="statistics__item-subtitle">Гарантия результата</h4>
+            <h4 class="statistics__item-subtitle"><span>Гарантия</span>результата</h4>
             <p class="statistics__item-desc">При соблюдении всех рекомендаций и методик</p>
           </div>
         </li>
         <li class="statistics__item">
           <h3 class="statistics__item-title">5423</h3>
           <div class="statistics__wrap">
-            <h4 class="statistics__item-subtitle">Девушки участвовали</h4>
+            <h4 class="statistics__item-subtitle"><span>Девушки</span>участвовали</h4>
             <p class="statistics__item-desc">В предыдущих марафонах и курсах</p>
           </div>
         </li>
         <li class="statistics__item">
           <h3 class="statistics__item-title">2370</h3>
           <div class="statistics__wrap">
-            <h4 class="statistics__item-subtitle">Участниц нашли любовь</h4>
+            <h4 class="statistics__item-subtitle"><span>Участниц</span>нашли любовь</h4>
             <p class="statistics__item-desc">Уже через 30 дней после марафона</p>
           </div>
         </li>
         <li class="statistics__item">
           <h3 class="statistics__item-title">92%</h3>
           <div class="statistics__wrap">
-            <h4 class="statistics__item-subtitle">Участниц вышли замуж</h4>
+            <h4 class="statistics__item-subtitle"><span>Участниц</span>вышли замуж</h4>
             <p class="statistics__item-desc">За богатых и обеспеченных мужчин</p>
           </div>
         </li>
       </ul>
     </section>
 
-    <section class="coach">
-      <h2 class="coach__title">Анастасия Григорьева</h2>
-      <p class="coach__subtitle"><span class="coach__subtitle--first">Дипломированный практикующий психолог по
-          семейным отношениям и проблемам брака.</span>
-        <span class="coach__subtitle--second">Международный женский коуч с 8-летней практикой. Консультант по
-          личностному росту и развитию</span></h4>
+    <div class="gradient__wrap">
+      <section class="coach">
+        <h2 class="coach__title">Анастасия Григорьева</h2>
+        <p class="coach__subtitle"><span class="coach__subtitle--first">Дипломированный практикующий психолог по
+            семейным отношениям и проблемам брака.</span>
+          <span class="coach__subtitle--second">Международный женский коуч с 8-летней практикой. Консультант по
+            личностному росту и развитию</span></p>
         <div class="coach__image-big">
-          <img src="#" alt="Анастасия Григорьева">
-        </div>
-        <div class="coach__image-small">
-          <img src="#" alt="">
+          <img src="img/coach-big.png" alt="Анастасия Григорьева">
         </div>
         <div class="appeal">
           <h3 class="appeal__title">Милые девушки и женщины!</h3>
@@ -128,59 +126,138 @@
           </p>
           <p class="appeal__desc">Присоединяйтесь к моему марафону-девичнику «Love is…» прямо сейчас!
           </p>
-          <button class="button appeal__button">Присоединиться</button>
+          <button class="button appeal__button" type="button">Присоединиться</button>
         </div>
-    </section>
+      </section>
 
-    <section class="diploma slider">
-      <h2 class="visually-hidden">Наши дипломы и сертификаты</h2>
-      <ul class="diploma__list">
-        <li class="diploma__item slider__item--1">
-          <img src="#" alt="Сертификат">
-        </li>
-        <li class="diploma__item slider__item--2">
-          <img src="#" alt="Сертификат">
-        </li>
-        <li class="diploma__item slider__item--3">
-          <img src="#" alt="Сертификат">
-        </li>
-        <li class="diploma__item slider__item--4">
-          <img src="#" alt="Сертификат">
-        </li>
-      </ul>
-      <div class="slider__buttons">
-        <button class="slider__button"><span class="visually-hidden">1</span></button>
-        <button class="slider__button"><span class="visually-hidden">2</span></button>
-        <button class="slider__button"><span class="visually-hidden">3</span></button>
-      </div>
-    </section>
+      <section class="diploma slider">
+        <h2 class="visually-hidden">Наши дипломы и сертификаты</h2>
+        <ul class="diploma__list">
+          <li class="diploma__item slider__item--1">
+            <img class="diploma__item-image" src="img/diploma-1.png" alt="Сертификат">
+          </li>
+          <li class="diploma__item slider__item--2">
+            <img class="diploma__item-image" src="img/diploma-2.png" alt="Сертификат">
+          </li>
+          <li class="diploma__item slider__item--3">
+            <img class="diploma__item-image" src="img/diploma-3.png" alt="Сертификат">
+          </li>
+          <li class="diploma__item slider__item--4">
+            <img class="diploma__item-image" src="img/diploma-4.png" alt="Сертификат">
+          </li>
+        </ul>
+        <div class="slider__buttons">
+          <button class="slider__button slider__button--1 slider__active" type="button"><span class="visually-hidden">1</span></button>
+          <button class="slider__button slider__button--2" type="button"><span class="visually-hidden">2</span></button>
+          <button class="slider__button slider__button--3" type="button"><span class="visually-hidden">3</span></button>
+        </div>
+      </section>
+    </div>
 
     <section class="member">
       <h2 class="member__title">Для кого этот марафон</h2>
       <ul class="member__list">
         <li class="member__item">
-          <div class="member__item-image">
-            <img src="#" alt="">
+          <div class="member__item-wrap--1">
+            <div class="member__item-image">
+              <img src="img/break-heart.png" alt="break heart">
+            </div>
+            <h3 class="member__item-title">
+              <span>Пережила</span>тяжелый разрыв?
+            </h3>
           </div>
-          <p class="member__item-desc">
-            Пережила тяжелый разрыв?
-          </p>
+          <div class="member__item-wrap--2">
+            <h3 class="member__item-title member__item-title--2">
+              <span>Пережила</span>тяжелый разрыв?
+            </h3>
+            <ul class="member__nested-list">
+              <li class="member__nested-item">
+                Марафон поможет тебе:
+              </li>
+              <li class="member__nested-item">
+                - исцелить душевные раны;
+              </li>
+              <li class="member__nested-item">
+                - забыть тяжелые воспоминания;
+              </li>
+              <li class="member__nested-item">
+                - почувствовать гармонию и силу;
+              </li>
+              <li class="member__nested-item">
+                - освободить сердце для новых
+              </li>
+              <li class="member__nested-item">
+                отношений
+              </li>
+            </ul>
+            <button class="button member-button" type="button">Регистрация</button>
+          </div>
         </li>
         <li class="member__item">
-          <div class="member__item-image">
-            <img src="#" alt="">
+          <div class="member__item-wrap--1">
+            <div class="member__item-image">
+              <img src="img/love-heart.png" alt="love heart">
+            </div>
+            <h3 class="member__item-title">
+              <span>Хочешь найти</span>мужчину мечты?
+            </h3>
           </div>
-          <p class="member__item-desc">
-            Хочешь найти мужчину мечты?
-          </p>
+          <div class="member__item-wrap--2">
+            <h3 class="member__item-title member__item-title--2">
+              <span>Хочешь найти</span>мужчину мечты?
+            </h3>
+            <ul class="member__nested-list">
+              <li class="member__nested-item">
+                Марафон поможет тебе:
+              </li>
+              <li class="member__nested-item">
+                - перенастроить свой внутренний мир;
+              </li>
+              <li class="member__nested-item">
+                - понять свои ошибки в отношениях;
+              </li>
+              <li class="member__nested-item">
+                - стать желанной женщиной;
+              </li>
+              <li class="member__nested-item">
+                - найти идеального мужчину
+              </li>
+            </ul>
+            <button class="button member-button" type="button">Регистрация</button>
+          </div>
         </li>
         <li class="member__item">
-          <div class="member__item-image">
-            <img src="#" alt="">
+          <div class="member__item-wrap--1">
+            <div class="member__item-image">
+              <img src="img/along-girl.png" alt="along girl">
+            </div>
+            <h3 class="member__item-title">
+              <span>Устала</span>от однообразия?
+            </h3>
           </div>
-          <p class="member__item-desc">
-            Устала от однообразия?
-          </p>
+          <div class="member__item-wrap--2">
+            <h3 class="member__item-title member__item-title--2">
+              <span>Устала</span>от однообразия?
+            </h3>
+            <ul class="member__nested-list">
+              <li class="member__nested-item">
+                Марафон поможет тебе:
+              </li>
+              <li class="member__nested-item">
+                - понять себя и свой внутренний мир;
+              </li>
+              <li class="member__nested-item">
+                - повысить свою самооценку;
+              </li>
+              <li class="member__nested-item">
+                - переосмыслить свою жизнь;
+              </li>
+              <li class="member__nested-item">
+                - открыть в себе КОРОЛЕВУ.
+              </li>
+            </ul>
+            <button class="button member-button" type="button">Регистрация</button>
+          </div>
         </li>
       </ul>
     </section>
