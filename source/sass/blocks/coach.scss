@@ -1,0 +1,55 @@
+.coach {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.coach__title {
+  position: relative;
+  margin: 0;
+  margin-bottom: 35px;
+  text-align: center;
+  color: $bg-darkblue;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.coach__title::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -35px;
+  width: 70px;
+  height: 7px;
+  background-color: $bg-lightpink;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.coach__subtitle {
+  margin: 0;
+  margin-bottom: 45px;
+  text-align: center;
+  color: $bg-darkblue;
+}
+
+.coach__image-big {
+  position: relative;
+  order: 1;
+  margin-top: -30px;
+  margin-left: 5px;
+}
+
+.coach__image-big::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 143px;
+  height: 119px;
+  background-image: url('../img/couple.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
