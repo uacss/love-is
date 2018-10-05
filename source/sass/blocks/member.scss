@@ -48,14 +48,6 @@
   background-color: rgba(252, 186, 213, 0.73);
 }
 
-.member__item:hover .member__item-wrap--2 {
-  opacity: 1;
-}
-
-.member__item:hover .member__item-wrap--1 {
-  opacity: 0;
-}
-
 .member__item-wrap--1 {
   transition-property: opacity;
   transition-duration: 1s;
@@ -68,6 +60,14 @@
   opacity: 0;
   transition-property: opacity;
   transition-duration: 1s;
+}
+
+.member__item:hover .member__item-wrap--2 {
+  opacity: 1;
+}
+
+.member__item:hover .member__item-wrap--1 {
+  opacity: 0;
 }
 
 .member__nested-list {

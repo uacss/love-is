@@ -1,4 +1,12 @@
 .main-nav {
+  text-align: center;
+}
+
+.main-nav__hide {
+  display: none;
+}
+
+.main-nav__wrap-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +27,72 @@
   cursor: pointer;
 }
 
-.main-nav__list,
+.main-nav__list {
+  text-align: center;
+  color: $bg-darkblue;
+
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__link a {
+  color: $bg-darkblue;
+  text-decoration: none;
+}
+
+.main-nav__link a:hover {
+  color: $bg-pink;
+}
+
+.main-nav__item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.main-nav__item::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -128px;
+  width: 256px;
+  height: 1px;
+  background-color: $bg-white;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.main-nav__item:last-child::after {
+  display: none;
+}
+
+.main-nav__close-button {
+  position: relative;
+  padding: 0;
+  border: none;
+}
+
+.main-nav__close-button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -27px;
+  width: 54px;
+  height: 9px;
+  background-color: $bg-lightpink;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main-nav__close-button:hover::after {
+  background-color: $bg-white;
+}
+
 .main-nav__signup {
   display: none;
 }
