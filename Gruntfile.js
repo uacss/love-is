@@ -53,7 +53,7 @@ module.exports = function(grunt) {
     babel: {
       options: {
         sourceMap: true,
-        presets: ['env'],
+        presets: ['@babel/preset-env'],
       },
       dist: {
         files: {
