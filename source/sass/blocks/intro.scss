@@ -1,0 +1,37 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.intro__title {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 27px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.intro__title--first {
+  display: block;
+}
+
+.intro__subtitle {
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  order: -1;
+  color: $bg-pink;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.intro__desc {
+  margin: 0;
+  margin-bottom: 180px;
+  color: $bg-darkblue;
+  font-size: 18px;
+  font-weight: 600;
+}

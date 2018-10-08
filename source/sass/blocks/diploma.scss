@@ -1,0 +1,20 @@
+.diploma {
+  padding-bottom: 60px;
+}
+
+.diploma__list {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.diploma__item-image {
+  border-radius: 10px;
+  box-shadow: 0 5px 9px 2px rgba($color: $bg-black, $alpha: 0.17),
+    -1px -1px 1px rgba($color: $bg-black, $alpha: 0.17),
+    -1px -1px 1px rgba($color: $bg-white, $alpha: 1),
+    -5px -5px rgba($color: $bg-yellow, $alpha: 1);
+}
