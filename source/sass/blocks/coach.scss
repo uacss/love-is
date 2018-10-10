@@ -49,7 +49,55 @@
   right: 0;
   width: 143px;
   height: 119px;
-  background-image: url('../img/couple.png');
+  background-image: url('../img/couple-mobile.png');
   background-position: 0 0;
   background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+  .coach {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    max-width: 1170px;
+  }
+
+  .coach__title {
+    font-size: 23px;
+  }
+
+  .coach__subtitle {
+    font-size: 15px;
+  }
+
+  .coach__subtitle--first {
+    display: block;
+  }
+
+  .coach__wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .coach__image-big{
+    order: 0;
+    z-index: 1;
+  }
+
+  .coach__image-big::before {
+    content: '';
+    position: absolute;
+    bottom: 13.5%;
+    left: -30%;
+    z-index: -1;
+    width: 103%;
+    height: 78%;
+    background-color: $bg-yellow;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+
+  .coach__image-big::after {
+    display: none;
+  }
 }

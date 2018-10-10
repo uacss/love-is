@@ -1,4 +1,4 @@
-.countdown {
+.countdown__container {
   margin: 0 15px;
   text-align: center;
   background-color: rgba($color: $bg-white, $alpha: 0.27);
@@ -30,6 +30,7 @@
   margin: 0;
   margin-bottom: 20px;
   color: $bg-darkblue;
+  font-size: 16px;
 }
 
 .countdown__item-desc {
@@ -52,4 +53,54 @@
 .countdown__button {
   margin-top: 33px;
   margin-bottom: 50px;
+}
+
+@media (min-width: $tablet-width) {
+  .countdown {
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+
+  .countdown__container {
+    padding-bottom: 25px;
+    max-width: 570px;
+    border-radius: 10px;
+  }
+
+  .countdown__title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 26px;
+  }
+
+  .countdown__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+
+  .countdown__list {
+    margin: 0;
+    margin-right: 60px;
+    max-width: 265px;
+  }
+
+  .countdown__item-title {
+    font-size: 15px;
+  }
+
+  .countdown__item-desc {
+    padding-top: 5px;
+    padding-right: 10px;
+    font-size: 53px;
+  }
+
+  .countdown__button {
+    margin: 0;
+    margin-bottom: -25px;
+    padding: 0;
+    min-width: 195px;
+    height: 52px;
+  }
 }

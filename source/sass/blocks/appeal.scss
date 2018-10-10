@@ -29,3 +29,17 @@
   min-width: 195px;
   margin-top: 40px;
 }
+
+@media (min-width: $tablet-width) {
+  .appeal {
+    max-width: 700px;
+  }
+
+  .appeal__title {
+    font-size: 23px;
+  }
+
+  .appeal__desc {
+    font-size: 15px;
+  }
+}

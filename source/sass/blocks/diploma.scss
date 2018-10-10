@@ -18,3 +18,22 @@
     -1px -1px 1px rgba($color: $bg-white, $alpha: 1),
     -5px -5px rgba($color: $bg-yellow, $alpha: 1);
 }
+
+@media (min-width: $tablet-width) {
+  .diploma {
+    margin: 0 auto;
+    padding-bottom: 75px;
+    max-width: 1170px;
+  }
+
+  .diploma__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .diploma__item {
+    margin: 0 15px;
+    margin-bottom: 30px;
+    min-width: 250px;
+  }
+}

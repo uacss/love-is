@@ -9,8 +9,19 @@
   display: flex;
   align-items: center;
   margin-bottom: 9px;
+  background-color: $bg-white;
   box-shadow: 0 5px 7px 1px rgba($color: $bg-black, $alpha: 0.17);
   border-radius: 10px;
+}
+
+.statistics__wrap--title {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  min-height: 51px;
+  background-image: url('../img/bg-pink-heart-mobile.png');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
 }
 
 .statistics__item-title {
@@ -22,13 +33,13 @@
   font-weight: 600;
 }
 
-.statistics__wrap {
+.statistics__wrap--desc {
   position: relative;
   padding: 0 12px;
   padding-right: 20px;
 }
 
-.statistics__wrap::after {
+.statistics__wrap--desc::after {
   content: '';
   position: absolute;
   top: 10%;
@@ -54,5 +65,46 @@
   margin: 0;
   padding-bottom: 20px;
   color: $bg-darkblue;
+  font-size: 16px;
   line-height: 21px;
+}
+
+@media (min-width: $tablet-width) {
+  .statistics {
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 0;
+    max-width: 1170px;
+    text-align: center;
+  }
+
+  .statistics__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .statistics__item {
+    flex-direction: column;
+    margin: 0 5px;
+    margin-bottom: 30px;
+    max-width: 280px;
+  }
+
+  .statistics__wrap--title {
+    min-height: 78px;
+    background-image: url('../img/bg-pink-heart-desktop.png');
+  }
+
+  .statistics__item-title {
+    font-size: 49px;
+  }
+
+  .statistics__item-subtitle {
+    font-size: 23px;
+  }
+
+  .statistics__item-desc {
+    font-size: 15px;
+  }
 }
