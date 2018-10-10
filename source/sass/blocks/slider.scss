@@ -36,3 +36,9 @@
 .slider__active.slider__button::before {
   background-color: $bg-lightpink;
 }
+
+@media (min-width: $tablet-width) {
+  .slider__button {
+    display: none;
+  }
+}
