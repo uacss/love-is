@@ -11,7 +11,8 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 15px;
-  padding: 8px 16px;
+  padding: 0 16px;
+  min-height: 52px;
   background-color: $bg-white;
   border-radius: 30px;
 }
@@ -95,4 +96,52 @@
 
 .main-nav__signup {
   display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1170px;
+    background-color: $bg-white;
+    border-radius: 30px;
+  }
+
+  .main-nav__button-sandwich {
+    display: none;
+  }
+
+  .main-nav__wrap-bottom {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .main-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-right: 25px;
+  }
+
+  .main-nav__item {
+    margin-right: 40px;
+    margin-bottom: 0;
+  }
+
+  .main-nav__item::after {
+    display: none;
+  }
+
+  .main-nav__signup {
+    display: block;
+  }
+
+  .main-nav__button {
+    min-width: 195px;
+  }
+
+  .main-nav__close-button {
+    display: none;
+  }
 }
